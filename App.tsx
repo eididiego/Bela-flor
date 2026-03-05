@@ -6,6 +6,7 @@ import HowItWorks from './components/HowItWorks';
 import Catalog from './components/Catalog';
 import { Occasions, PhysicalStore } from './components/InfoSection';
 import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 const App: React.FC = () => {
   const catalogRef = useRef<HTMLDivElement>(null);
@@ -36,6 +37,8 @@ const App: React.FC = () => {
       
       {/* Footer CTA now also scrolls to Catalog */}
       <Footer onScrollToCatalog={scrollToCatalog} />
+
+      <FloatingWhatsApp />
     </div>
   );
 };

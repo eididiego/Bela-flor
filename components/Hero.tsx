@@ -8,6 +8,15 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ onScrollToCatalog }) => {
   return (
     <section className="relative w-full h-[85vh] sm:h-[75vh] flex items-center justify-center overflow-hidden bg-brand-50 mt-10">
+      {/* Logo in top left */}
+      <div className="absolute top-4 left-4 z-20">
+        <img 
+          src="https://floriculturabelaflor.com/wp-content/uploads/2026/03/Design-sem-nome.png" 
+          alt="Bela Flor Logo" 
+          className="w-16 md:w-24 drop-shadow-lg"
+        />
+      </div>
+
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 

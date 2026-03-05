@@ -16,8 +16,8 @@ const StickyBanner: React.FC = () => {
             <span>Entregas para <strong>Taubaté e região</strong></span>
           </div>
           <div className="flex items-center gap-1.5">
-            <Truck size={14} className="text-green-300" />
-            <span className="font-bold">Entrega grátis acima de R$ 250,00</span>
+            <Truck size={14} className="text-pink-300" />
+            <span className="font-bold text-pink-100">Últimas unidades para o Dia das Mulheres 🌹</span>
           </div>
         </div>
       </div>

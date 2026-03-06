@@ -45,15 +45,7 @@ export const PRODUCTS: Product[] = [
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/11.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/3NPWK98C95'
   },
-  {
-    id: 'buque-4-rosas',
-    name: 'Buquê 4 flores',
-    price: 149.90,
-    description: 'Um gesto delicado e especial.',
-    category: 'roses',
-    imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/10.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/3IWE3AW99W'
-  },
+
   {
     id: 'buque-3-rosas',
     name: 'Buquê 3 Rosas',

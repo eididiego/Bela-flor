@@ -27,19 +27,7 @@ const Catalog = forwardRef<HTMLDivElement>((_, ref) => {
         </div>
       </div>
 
-      {/* Sunflowers Section */}
-      <div className="mb-20">
-        <div className="flex items-center gap-4 mb-8">
-          <div className="h-px bg-stone-300 flex-grow"></div>
-          <h3 className="text-2xl font-serif text-yellow-700 px-4 bg-yellow-50 rounded-full py-1">🌻 Linha Girassóis</h3>
-          <div className="h-px bg-stone-300 flex-grow"></div>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {sunflowers.map(product => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
-      </div>
+
     </section>
   );
 });

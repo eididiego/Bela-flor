@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
   // KITS
   {
     id: 'kit-te-amo-12',
-    name: 'KIT TE AMO - Buquê 12 rosas + Ferrero Rocher 12 Unidades',
+    name: 'Kit Te Amo - Buquê 12 Rosas + Ferrero Rocher 12 Unidades',
     price: 319.80,
     description: 'Buquê de 12 Rosas acompanhada de Caixa com 12 unidades de Ferrero Rocher',
     category: 'kits',
@@ -38,7 +38,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'kit-carinho-7',
-    name: 'KIT CARINHO - Buquê 7 rosas + Ferrero Rocher 12 Unidades',
+    name: 'Kit Carinho - Buquê 7 Rosas + Ferrero Rocher 12 Unidades',
     price: 269.80,
     description: 'Buquê de 7 Rosas acompanhada de Caixa com 12 unidades de Ferrero Rocher',
     category: 'kits',
@@ -47,7 +47,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'kit-te-amo-3',
-    name: 'KIT TE AMO - Buquê 3 rosas + Ferrero Rocher 08 Unidades',
+    name: 'Kit Te Amo - Buquê 3 Rosas + Ferrero Rocher 08 Unidades',
     price: 149.80,
     description: 'Buquê de 3 Rosas acompanhada de Caixa com 8 unidades de Ferrero Rocher',
     category: 'kits',
@@ -56,7 +56,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'kit-presente-2',
-    name: 'KIT PRESENTE - Arranjo 2 rosas + Ferrero Rocher 08 Unidades',
+    name: 'Kit Presente - Arranjo 2 Rosas + Ferrero Rocher 08 Unidades',
     price: 119.80,
     description: 'Arranjo de 2 Rosas acompanhada de Caixa com 8 unidades de Ferrero Rocher',
     category: 'kits',
@@ -119,6 +119,33 @@ export const PRODUCTS: Product[] = [
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/3.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/75IDC8HOZH'
+  },
+  {
+    id: 'arranjo-1-rosa-caixa',
+    name: 'Arranjo 1 Rosa na Caixa',
+    price: 59.90,
+    description: 'Elegância singular em uma apresentação sofisticada.',
+    category: 'roses',
+    imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/5.png',
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/CYFP78RV5H'
+  },
+  {
+    id: 'arranjo-2-rosas-caixa',
+    name: 'Arranjo 2 Rosas na Caixa',
+    price: 79.90,
+    description: 'Dupla dose de encanto em uma caixa especial.',
+    category: 'roses',
+    imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/6.png',
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/DHWZ46VEYN'
+  },
+  {
+    id: 'arranjo-3-rosas-caixa',
+    name: 'Arranjo 3 Rosas na Caixa',
+    price: 109.90,
+    description: 'Três rosas que expressam amor, admiração e gratidão.',
+    category: 'roses',
+    imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/7.png',
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/4PVV3M815E'
   },
 
   // GIRASSÓIS

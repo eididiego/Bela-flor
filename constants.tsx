@@ -26,6 +26,44 @@ export const STORES: Store[] = [
 ];
 
 export const PRODUCTS: Product[] = [
+  // KITS
+  {
+    id: 'kit-te-amo-12',
+    name: 'KIT TE AMO - Buquê 12 rosas + Ferrero Rocher 12 Unidades',
+    price: 319.80,
+    description: 'Buquê de 12 Rosas acompanhada de Caixa com 12 unidades de Ferrero Rocher',
+    category: 'kits',
+    imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/1.png',
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/A3GG5SUEM40S'
+  },
+  {
+    id: 'kit-carinho-7',
+    name: 'KIT CARINHO - Buquê 7 rosas + Ferrero Rocher 12 Unidades',
+    price: 269.80,
+    description: 'Buquê de 7 Rosas acompanhada de Caixa com 12 unidades de Ferrero Rocher',
+    category: 'kits',
+    imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/4.png',
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/BPXYJMPD1HK4'
+  },
+  {
+    id: 'kit-te-amo-3',
+    name: 'KIT TE AMO - Buquê 3 rosas + Ferrero Rocher 08 Unidades',
+    price: 149.80,
+    description: 'Buquê de 3 Rosas acompanhada de Caixa com 8 unidades de Ferrero Rocher',
+    category: 'kits',
+    imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/3.png',
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/9WPJCS1DZ14C'
+  },
+  {
+    id: 'kit-presente-2',
+    name: 'KIT PRESENTE - Arranjo 2 rosas + Ferrero Rocher 08 Unidades',
+    price: 119.80,
+    description: 'Arranjo de 2 Rosas acompanhada de Caixa com 8 unidades de Ferrero Rocher',
+    category: 'kits',
+    imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/2.png',
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/JJH7JNOEQBWO'
+  },
+
   // ROSAS
   {
     id: 'buque-12-rosas',

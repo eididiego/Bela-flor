@@ -5,9 +5,11 @@ export interface Product {
   name: string;
   price: number;
   description: string;
-  category: 'roses' | 'sunflowers' | 'chocolates';
+  category: 'roses' | 'sunflowers' | 'chocolates' | 'kits';
   imagePlaceholder: string;
   checkoutUrl: string;
+  bestSeller?: boolean;
+  soldOut?: boolean;
 }
 
 export interface Store {

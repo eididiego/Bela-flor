@@ -34,7 +34,9 @@ export const PRODUCTS: Product[] = [
     description: 'Buquê de 12 Rosas acompanhada de Caixa com 12 unidades de Ferrero Rocher',
     category: 'kits',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/1.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/A3GG5SUEM40S'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/A3GG5SUEM40S',
+    bestSeller: true,
+    soldOut: true
   },
   {
     id: 'kit-carinho-7',
@@ -43,7 +45,9 @@ export const PRODUCTS: Product[] = [
     description: 'Buquê de 7 Rosas acompanhada de Caixa com 12 unidades de Ferrero Rocher',
     category: 'kits',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/4.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/BPXYJMPD1HK4'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/BPXYJMPD1HK4',
+    bestSeller: true,
+    soldOut: true
   },
   {
     id: 'kit-te-amo-3',
@@ -52,7 +56,8 @@ export const PRODUCTS: Product[] = [
     description: 'Buquê de 3 Rosas acompanhada de Caixa com 8 unidades de Ferrero Rocher',
     category: 'kits',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/3.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/9WPJCS1DZ14C'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/9WPJCS1DZ14C',
+    bestSeller: true
   },
   {
     id: 'kit-presente-2',
@@ -72,7 +77,8 @@ export const PRODUCTS: Product[] = [
     description: 'Impactante, clássico e cheio de significado.',
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/12.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/1I7MDEHWEF'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/1I7MDEHWEF',
+    soldOut: true
   },
   {
     id: 'buque-7-rosas',
@@ -81,7 +87,9 @@ export const PRODUCTS: Product[] = [
     description: 'Amor na medida certa.',
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/11.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/3NPWK98C95'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/3NPWK98C95',
+    bestSeller: true,
+    soldOut: true
   },
 
   {
@@ -91,7 +99,8 @@ export const PRODUCTS: Product[] = [
     description: 'Simples, sincero e encantador.',
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/9.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/51JA4X3A62'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/51JA4X3A62',
+    bestSeller: true
   },
   {
     id: 'arranjo-2-rosas',
@@ -118,7 +127,8 @@ export const PRODUCTS: Product[] = [
     description: 'Surpresa delicada e acessível.',
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/3.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/75IDC8HOZH'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/75IDC8HOZH',
+    soldOut: true
   },
   {
     id: 'arranjo-1-rosa-caixa',

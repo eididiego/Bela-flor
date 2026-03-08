@@ -57,7 +57,8 @@ export const PRODUCTS: Product[] = [
     category: 'kits',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/3.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/9WPJCS1DZ14C',
-    bestSeller: true
+    bestSeller: true,
+    soldOut: true
   },
   {
     id: 'kit-presente-2',
@@ -66,7 +67,8 @@ export const PRODUCTS: Product[] = [
     description: 'Arranjo de 2 Rosas acompanhada de Caixa com 8 unidades de Ferrero Rocher',
     category: 'kits',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/2.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/JJH7JNOEQBWO'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/JJH7JNOEQBWO',
+    soldOut: true
   },
 
   // ROSAS
@@ -100,7 +102,8 @@ export const PRODUCTS: Product[] = [
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/9.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/51JA4X3A62',
-    bestSeller: true
+    bestSeller: true,
+    soldOut: true
   },
   {
     id: 'arranjo-2-rosas',
@@ -109,7 +112,8 @@ export const PRODUCTS: Product[] = [
     description: 'Pequeno no tamanho, grande no carinho.',
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/5.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/3KRWD3PRQ7'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/3KRWD3PRQ7',
+    soldOut: true
   },
   {
     id: 'arranjo-1-rosa',
@@ -118,7 +122,8 @@ export const PRODUCTS: Product[] = [
     description: 'Um detalhe que faz diferença.',
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/4.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/HDH6028BOX'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/HDH6028BOX',
+    soldOut: true
   },
   {
     id: 'rosa-tubo',
@@ -137,7 +142,8 @@ export const PRODUCTS: Product[] = [
     description: 'Elegância singular em uma apresentação sofisticada.',
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/5.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/CYFP78RV5H'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/CYFP78RV5H',
+    soldOut: true
   },
   {
     id: 'arranjo-2-rosas-caixa',
@@ -146,7 +152,8 @@ export const PRODUCTS: Product[] = [
     description: 'Dupla dose de encanto em uma caixa especial.',
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/6.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/DHWZ46VEYN'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/DHWZ46VEYN',
+    soldOut: true
   },
   {
     id: 'arranjo-3-rosas-caixa',
@@ -155,7 +162,8 @@ export const PRODUCTS: Product[] = [
     description: 'Três rosas que expressam amor, admiração e gratidão.',
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/7.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/4PVV3M815E'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/4PVV3M815E',
+    soldOut: true
   },
 
   // GIRASSÓIS
@@ -166,7 +174,8 @@ export const PRODUCTS: Product[] = [
     description: 'Energia, alegria e luz.',
     category: 'sunflowers',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/21.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/BU2U5NAFSZ'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/BU2U5NAFSZ',
+    soldOut: true
   },
   {
     id: 'buque-4-girassois',
@@ -175,7 +184,8 @@ export const PRODUCTS: Product[] = [
     description: 'Um presente que ilumina o dia.',
     category: 'sunflowers',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/2.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/77JD9F2KE3'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/77JD9F2KE3',
+    soldOut: true
   },
   {
     id: 'buque-1-girassol-1-rosa',
@@ -184,7 +194,8 @@ export const PRODUCTS: Product[] = [
     description: 'Equilíbrio perfeito entre amor e alegria.',
     category: 'sunflowers',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/1.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/567U9UYES1'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/567U9UYES1',
+    soldOut: true
   },
   {
     id: 'arranjo-1-girassol',
@@ -193,7 +204,8 @@ export const PRODUCTS: Product[] = [
     description: 'Simples, alegre e marcante.',
     category: 'sunflowers',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/20.png',
-    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/5NQJJKHOGC'
+    checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/5NQJJKHOGC',
+    soldOut: true
   },
 
   // CHOCOLATES

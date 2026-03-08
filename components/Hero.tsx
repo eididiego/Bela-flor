@@ -39,7 +39,8 @@ const Hero: React.FC<HeroProps> = ({ onScrollToCatalog }) => {
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-stone-100 max-w-2xl mx-auto font-light drop-shadow-md leading-relaxed">
-            Flores preparadas com carinho, para surpreender quem você ama, com entrega rápida e compra fácil.
+            Flores preparadas com carinho. <br />
+            <span className="font-bold text-brand-300">Aviso:</span> Hoje estamos realizando apenas <span className="underline decoration-brand-400">atendimento presencial</span> em nossas unidades.
           </p>
         </div>
         

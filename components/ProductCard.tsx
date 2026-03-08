@@ -9,7 +9,7 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const handleBuyClick = () => {
     if (product.soldOut) {
-      alert("Este produto está esgotado. Por favor, selecione outro produto.");
+      alert("No momento estamos realizando apenas atendimento presencial em nossas lojas físicas. Visite-nos para garantir suas flores!");
       return;
     }
     window.location.href = product.checkoutUrl;

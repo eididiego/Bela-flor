@@ -7,17 +7,17 @@ const StickyBanner: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 py-2 flex flex-col sm:flex-row justify-between items-center text-xs sm:text-sm gap-2 text-center sm:text-left">
         <div className="flex items-center gap-1.5 animate-pulse">
           <Clock size={14} className="text-yellow-400" />
-          <span className="font-semibold">Disponibilidade limitada para hoje</span>
+          <span className="font-semibold">Atendimento apenas presencial hoje</span>
         </div>
         
         <div className="flex flex-col md:flex-row gap-1 md:gap-6 items-center">
           <div className="flex items-center gap-1.5">
             <MapPin size={14} className="text-brand-100" />
-            <span>Entregas para <strong>Taubaté e região</strong></span>
+            <span>Visite nossas lojas em <strong>Taubaté</strong></span>
           </div>
           <div className="flex items-center gap-1.5">
             <Truck size={14} className="text-pink-300" />
-            <span className="font-bold text-pink-100">Últimas unidades para o Dia das Mulheres 🌹</span>
+            <span className="font-bold text-pink-100">Vendas online temporariamente suspensas 🌹</span>
           </div>
         </div>
       </div>

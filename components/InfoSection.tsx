@@ -44,7 +44,7 @@ export const PhysicalStore = forwardRef<HTMLDivElement>((_, ref) => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-12">
         {STORES.map((store) => (
           <div key={store.id} className="bg-white rounded-2xl shadow-lg overflow-hidden border border-stone-100 flex flex-col hover:shadow-xl transition-shadow duration-300">
              {/* Image Container */}
@@ -57,7 +57,7 @@ export const PhysicalStore = forwardRef<HTMLDivElement>((_, ref) => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
                 <div className="absolute bottom-4 left-4 text-white">
                    <p className="font-bold text-lg">{store.name}</p>
-                   <p className="text-stone-200 text-sm">{store.phone}</p>
+                   <p className="text-stone-200 text-sm tracking-wide">{store.phone}</p>
                 </div>
              </div>
 
@@ -81,6 +81,16 @@ export const PhysicalStore = forwardRef<HTMLDivElement>((_, ref) => {
                     <div>
                         <p className="font-bold text-stone-800 text-sm uppercase tracking-wide mb-1">Horário</p>
                         <p className="text-stone-600 leading-relaxed">{store.hours}</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-brand-50 p-2 rounded-lg shrink-0 text-brand-600">
+                        <MessageCircle className="w-5 h-5" />
+                    </div>
+                    <div>
+                        <p className="font-bold text-stone-800 text-sm uppercase tracking-wide mb-1">WhatsApp</p>
+                        <p className="text-brand-700 font-bold text-lg">{store.phone}</p>
                     </div>
                   </div>
                 </div>
@@ -109,6 +119,36 @@ export const PhysicalStore = forwardRef<HTMLDivElement>((_, ref) => {
              </div>
           </div>
         ))}
+      </div>
+
+      <div className="bg-amber-50 border border-amber-100 rounded-2xl p-6 md:p-8 text-center max-w-4xl mx-auto shadow-sm">
+          <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-amber-100 text-amber-700 mb-4">
+              <MessageCircle size={24} />
+          </div>
+          <h3 className="text-xl md:text-2xl font-serif font-bold text-amber-900 mb-2">Segurança em seu pedido</h3>
+          <p className="text-amber-800 text-lg mb-8">
+            Para sua segurança, só confie nos números de WhatsApp oficiais e endereços abaixo:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 text-left">
+              {STORES.map(store => (
+                  <div key={store.id} className="bg-white/50 p-6 rounded-xl border border-amber-200/50">
+                      <p className="text-xs font-bold text-amber-600 uppercase tracking-widest mb-2">{store.name}</p>
+                      
+                      <div className="space-y-4">
+                          <div className="flex items-start gap-3">
+                              <MapPin size={18} className="text-amber-700 shrink-0 mt-1" />
+                              <p className="text-stone-800 font-medium text-sm leading-relaxed">{store.address}</p>
+                          </div>
+                          <div className="flex items-center gap-3">
+                              <MessageCircle size={18} className="text-amber-700 shrink-0" />
+                              <a href={`https://wa.me/${store.whatsapp}`} className="text-xl font-bold text-stone-900 hover:text-brand-600 transition-colors">
+                                  {store.phone}
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              ))}
+          </div>
       </div>
     </section>
   );

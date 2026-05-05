@@ -36,7 +36,7 @@ export const PRODUCTS: Product[] = [
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/1.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/A3GG5SUEM40S',
     bestSeller: true,
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'kit-carinho-7',
@@ -47,7 +47,7 @@ export const PRODUCTS: Product[] = [
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/4.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/BPXYJMPD1HK4',
     bestSeller: true,
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'kit-te-amo-3',
@@ -58,7 +58,7 @@ export const PRODUCTS: Product[] = [
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/3.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/9WPJCS1DZ14C',
     bestSeller: true,
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'kit-presente-2',
@@ -68,7 +68,7 @@ export const PRODUCTS: Product[] = [
     category: 'kits',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/2.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/b/JJH7JNOEQBWO',
-    soldOut: true
+    soldOut: false
   },
 
   // ROSAS
@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/12.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/1I7MDEHWEF',
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'buque-7-rosas',
@@ -91,7 +91,7 @@ export const PRODUCTS: Product[] = [
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/11.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/3NPWK98C95',
     bestSeller: true,
-    soldOut: true
+    soldOut: false
   },
 
   {
@@ -103,7 +103,7 @@ export const PRODUCTS: Product[] = [
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/9.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/51JA4X3A62',
     bestSeller: true,
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'arranjo-2-rosas',
@@ -113,7 +113,7 @@ export const PRODUCTS: Product[] = [
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/5.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/3KRWD3PRQ7',
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'arranjo-1-rosa',
@@ -123,7 +123,7 @@ export const PRODUCTS: Product[] = [
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/4.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/HDH6028BOX',
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'rosa-tubo',
@@ -133,7 +133,7 @@ export const PRODUCTS: Product[] = [
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/3.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/75IDC8HOZH',
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'arranjo-1-rosa-caixa',
@@ -143,7 +143,7 @@ export const PRODUCTS: Product[] = [
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/5.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/CYFP78RV5H',
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'arranjo-2-rosas-caixa',
@@ -153,7 +153,7 @@ export const PRODUCTS: Product[] = [
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/6.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/DHWZ46VEYN',
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'arranjo-3-rosas-caixa',
@@ -163,7 +163,7 @@ export const PRODUCTS: Product[] = [
     category: 'roses',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/03/7.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/4PVV3M815E',
-    soldOut: true
+    soldOut: false
   },
 
   // GIRASSÓIS
@@ -175,7 +175,7 @@ export const PRODUCTS: Product[] = [
     category: 'sunflowers',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/21.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/BU2U5NAFSZ',
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'buque-4-girassois',
@@ -185,7 +185,7 @@ export const PRODUCTS: Product[] = [
     category: 'sunflowers',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/2.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/77JD9F2KE3',
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'buque-1-girassol-1-rosa',
@@ -195,7 +195,7 @@ export const PRODUCTS: Product[] = [
     category: 'sunflowers',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/1.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/567U9UYES1',
-    soldOut: true
+    soldOut: false
   },
   {
     id: 'arranjo-1-girassol',
@@ -205,7 +205,7 @@ export const PRODUCTS: Product[] = [
     category: 'sunflowers',
     imagePlaceholder: 'https://floriculturabelaflor.com/wp-content/uploads/2026/02/20.png',
     checkoutUrl: 'https://floricultura-bela-flor2.pay.yampi.com.br/r/5NQJJKHOGC',
-    soldOut: true
+    soldOut: false
   },
 
   // CHOCOLATES
